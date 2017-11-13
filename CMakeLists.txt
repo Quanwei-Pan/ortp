@@ -33,11 +33,11 @@ set(ORTP_SO_VERSION "13") # incremented on January 10, 2017
 
 option(ENABLE_SHARED "Build shared library." YES)
 option(ENABLE_STATIC "Build static library." YES)
-option(ENABLE_DOC "Enable documentation generation with Doxygen." YES)
+option(ENABLE_DOC "Enable documentation generation with Doxygen." NO)
 option(ENABLE_NTP_TIMESTAMP "Turn on NTP timestamping on packet reception." NO)
 option(ENABLE_PERF "Disable costly features to reduce cpu consumtion and increase performance." NO)
 option(ENABLE_STRICT "Build with strict compile options." YES)
-option(ENABLE_TESTS "Enable compilation of test programs." NO)
+option(ENABLE_TESTS "Enable compilation of test programs." YES)
 option(ENABLE_DEBUG_LOGS "Turn on or off debug level logs." NO)
 set(WITH_THREAD_STACK_SIZE "0" CACHE STRING "Set thread stack size (0 is the OS default).")
 
