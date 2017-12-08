@@ -53,7 +53,7 @@ void recv_tev_cb(RtpSession *session,unsigned long type, unsigned long dummy, vo
 int main(int argc, char *argv[])
 {
 	RtpSession *session;
-	unsigned char buffer[160];
+	unsigned char buffer[180];
 	int err;
 	FILE *outfile;
 	uint32_t ts=0;
